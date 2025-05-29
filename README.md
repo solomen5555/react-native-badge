@@ -1,4 +1,4 @@
-# @nguyenthanhdat/react-native-badge
+# @datnt1003/react-native-badge
 
 Display badge number on Android/iOS app icon in React Native
 
