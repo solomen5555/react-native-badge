@@ -1,6 +1,6 @@
 {
   "name": "@ntd1003/react-native-badge",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Display badge number on Android/iOS app icon in React Native",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,7 +25,7 @@
     "react-native.config.js"
   ],
   "peerDependencies": {
-    "react-native": "*"
+    "react-native": ">=0.63.0"
   },
   "devDependencies": {
     "@types/react-native": "^0.71.13",

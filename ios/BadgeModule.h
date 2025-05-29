@@ -1,3 +1,4 @@
 #import <React/RCTBridgeModule.h>
-@interface BadgeModule : NSObject <RCTBridgeModule>
+
+@interface BadgeNotification : NSObject <RCTBridgeModule>
 @end

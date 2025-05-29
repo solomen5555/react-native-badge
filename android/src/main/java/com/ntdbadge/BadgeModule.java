@@ -6,6 +6,7 @@ import android.os.Build;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import com.facebook.react.bridge.*;
+import android.util.Log;
 
 public class BadgeModule extends ReactContextBaseJavaModule {
     public BadgeModule(ReactApplicationContext context) {
@@ -29,6 +30,7 @@ public class BadgeModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void setBadgeCount(int count) {
+        Log.d("BadgeNotification", "setBadgeCount called with count = " + count);
         NotificationManagerCompat manager = NotificationManagerCompat.from(getReactApplicationContext());
         manager.cancelAll();
         if (count > 0) {
