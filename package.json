@@ -1,0 +1,21 @@
+{
+  "name": "@ntd1003/react-native-badge",
+  "version": "0.0.1",
+  "description": "Display badge number on Android/iOS app icon in React Native",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "react-native": "index.js",
+  "keywords": [
+    "react-native",
+    "badge",
+    "notification",
+    "ios",
+    "android"
+  ],
+  "author": "Nguyen Thanh Dat",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyenthanhdat/react-native-badge.git"
+  }
+}
