@@ -1,6 +1,6 @@
 {
   "name": "@ntd1003/react-native-badge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Display badge number on Android/iOS app icon in React Native",
   "main": "index.js",
   "types": "index.d.ts",
