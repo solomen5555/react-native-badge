@@ -1,10 +1,10 @@
 {
   "name": "@ntd1003/react-native-badge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Display badge number on Android/iOS app icon in React Native",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "react-native": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "react-native": "lib/index.js",
   "keywords": [
     "react-native",
     "badge",
@@ -17,5 +17,23 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/solomen5555/react-native-badge.git"
+  },
+  "files": [
+    "lib",
+    "android",
+    "ios",
+    "react-native.config.js"
+  ],
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.71.13",
+    "react-native": "^0.71.19",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   }
 }

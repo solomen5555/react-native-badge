@@ -1,10 +1,16 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "ES6",
+    "module": "ESNext",
     "declaration": true,
     "outDir": "lib",
-    "strict": true
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "react-native": ["node_modules/react-native"]
+    }
   },
   "include": ["index.ts"]
 }
